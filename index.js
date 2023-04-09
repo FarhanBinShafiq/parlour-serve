@@ -107,9 +107,9 @@ run().catch(console.dir)
 
 
 app.get('/', (req, res) => {
-  res.send('Hello from Doctors World!')
+  res.send('Hello from Parlours World!')
 })
 
 app.listen(port, () => {
-  console.log(`Doctors app listening on port ${port}`)
+  console.log(` app listening on port ${port}`)
 })
